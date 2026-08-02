@@ -1,0 +1,17 @@
+voltwise:
+    telemetry:
+        interval-ms=5000
+    kafka:
+        topics: 
+            registration: home-registration
+            telemetry: appliance-telemetry
+
+spring:
+    application: 
+        name: voltwise-telemetry-sensors
+    kafka: 
+        bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:29092}
+
+
+
+        
