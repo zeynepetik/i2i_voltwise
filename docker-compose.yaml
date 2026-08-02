@@ -122,6 +122,20 @@ services:
       - "8081:8081"
     networks:
       - voltwise_net
+  
+  frontend:
+    build:
+      context: ./VoltWise_Web_App
+      dockerfile: Dockerfile
+      args:
+        VITE_API_BASE_URL: http://16.192.161.28:8081
+    container_name: voltwise_frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - core
+    networks:
+      - voltwise_net
 
 
 networks:
