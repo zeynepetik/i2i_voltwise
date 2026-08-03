@@ -31,9 +31,9 @@ Using docker-compose.yaml file all serivces which are Apache Ignite, Apache Kafk
 
     And each home registration have a visual card which displays appliances that home has, personalized AI generated suggestions, consumption trends and daily cost breakdown.
 
-    ![Home card Trends](<Screenshot 2026-07-27 103954.png>)
+![Home card Trends](<Screenshot 2026-07-27 103954.png>)
 
-    ![Home card general information](<Screenshot 2026-07-27 103936.png>)
+![Home card general information](<Screenshot 2026-07-27 103936.png>)
 
  ## Known Limitations
 
