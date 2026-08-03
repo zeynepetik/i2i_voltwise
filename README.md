@@ -29,7 +29,7 @@ Using docker-compose.yaml file all serivces which are Apache Ignite, Apache Kafk
 
 ![Quota Breached Homes](<Screenshot 2026-07-27 103922.png>)
 
-    And each home registration have a visual card which displays appliances that home has, personalized AI generated suggestions, consumption trends and daily cost breakdown.
+And each home registration have a visual card which displays appliances that home has, personalized AI generated suggestions, consumption trends and daily cost breakdown.
 
 ![Home card Trends](<Screenshot 2026-07-27 103954.png>)
 
